@@ -1,0 +1,256 @@
+/* =========================================================
+   A S ENGINEERING WORK - CONTACT PAGE STYLESHEET
+   File: client/css/contact.css
+   ========================================================= */
+
+/* 1. Contact Page Hero Banner */
+.contact-hero-banner {
+  background: linear-gradient(135deg, rgba(7, 13, 24, 0.95) 0%, rgba(15, 23, 42, 0.88) 100%), url('../assets/factory-workshop.jpg') center/cover no-repeat;
+  padding: 3.75rem 0 3rem;
+  color: var(--white);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+/* 2. Contact Information Cards Grid */
+.contact-info-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.35rem;
+  margin-bottom: 3.5rem;
+}
+
+.contact-info-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent-orange);
+}
+
+.contact-card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(249, 115, 22, 0.12);
+  color: var(--accent-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  transition: all 0.35s ease;
+}
+
+.contact-info-card:hover .contact-card-icon {
+  background: var(--accent-orange);
+  color: #FFFFFF;
+  box-shadow: 0 6px 16px rgba(249, 115, 22, 0.4);
+}
+
+.contact-info-card h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.4rem;
+}
+
+.contact-info-card p,
+.contact-info-card a {
+  font-size: 0.85rem;
+  color: #64748B;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info-card a:hover {
+  color: var(--primary-blue);
+}
+
+/* 3. Combined Contact Form & RFQ + CAD Upload Section */
+.contact-forms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.form-container-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 2.25rem;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+}
+
+.form-header-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.form-header-subtitle {
+  font-size: 0.85rem;
+  color: #64748B;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.1rem;
+}
+
+.form-group label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 0.4rem;
+}
+
+.form-control-input {
+  width: 100%;
+  background: #F8FAFC;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: #0F172A;
+  transition: all 0.3s ease;
+}
+
+.form-control-input:focus {
+  outline: none;
+  background: #FFFFFF;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(15, 98, 254, 0.15);
+}
+
+textarea.form-control-input {
+  resize: vertical;
+  min-height: 110px;
+}
+
+/* Drag-and-Drop CAD Drawing Upload Dropzone */
+.drawing-upload-dropzone {
+  border: 2px dashed #CBD5E1;
+  background: #F8FAFC;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.drawing-upload-dropzone:hover,
+.drawing-upload-dropzone.dragover {
+  border-color: var(--accent-orange);
+  background: rgba(249, 115, 22, 0.05);
+}
+
+.upload-icon-circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(15, 98, 254, 0.1);
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin: 0 auto 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.drawing-upload-dropzone:hover .upload-icon-circle {
+  background: var(--accent-orange);
+  color: #FFFFFF;
+}
+
+.file-input-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* 4. Full-Width Embedded Google Map Section */
+.embedded-map-section {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.embedded-map-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: grayscale(0.2) contrast(1.1);
+}
+
+.map-floating-card {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--white);
+  padding: 1.25rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  max-width: 320px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Breakdown */
+@media (max-width: 992px) {
+  .contact-info-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-forms-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-info-grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .form-group-row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A S Engineering Work - Manufacturer of high precision stainless steel sleeves, pipes, rings & machined components built for performance and durability.">
+  <title>A S Engineering Work | Precision Stainless Steel Components</title>
+
+  <!-- Google Fonts (Poppins & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       1. TOP CONTACT BAR (STICKY)
+       ========================================================= -->
+  <div class="top-contact-bar">
+    <div class="container">
+      <div class="top-bar-content">
+        <div class="top-bar-info">
+          <div class="top-bar-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Jakhinwadi, Tal. Karad, Dist. Satara, Maharashtra – 415539</span>
+          </div>
+          <div class="top-bar-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:asengineeringwork1@gmail.com">asengineeringwork1@gmail.com</a>
+          </div>
+          <div class="top-bar-item">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+919850444542">+91 9850444542</a>
+          </div>
+          <div class="top-bar-item">
+            <i class="fas fa-file-invoice"></i>
+            <span>GSTIN: 27KOSPS1009P1ZY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       2. STICKY HEADER (TRANSPARENT -> SOLID WHITE ON SCROLL)
+       ========================================================= -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo.jpeg" alt="A S Engineering Work Logo" class="header-logo-img">
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">HOME</a>
+        <a href="about.html" class="nav-link">ABOUT US</a>
+        <a href="products.html" class="nav-link">PRODUCTS</a>
+        <a href="products.html#gallery" class="nav-link">GALLERY</a>
+        <a href="contact.html" class="nav-link">CONTACT US</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="header-quote-btn">
+          REQUEST QUOTE <i class="fas fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo.jpeg" alt="A S Engineering Work Logo" class="header-logo-img">
+      </a>
+      <button class="drawer-close-btn" aria-label="Close Menu"><i class="fas fa-times"></i></button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="active">HOME</a>
+      <a href="about.html">ABOUT US</a>
+      <a href="products.html">PRODUCTS</a>
+      <a href="products.html#gallery">GALLERY</a>
+      <a href="contact.html">CONTACT US</a>
+    </nav>
+    <div style="margin-top: auto; padding-top: 2rem;">
+      <a href="contact.html" class="btn btn-accent" style="width: 100%;">
+        REQUEST QUOTE <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </aside>
+
+  <!-- =========================================================
+       3. CINEMATIC HERO SECTION (BACKGROUND VIDEO & SHOWCASE)
+       ========================================================= -->
+  <section class="hero-section">
+    <!-- Cinematic Background Video & Overlay -->
+    <div class="hero-video-bg">
+      <video autoplay loop muted playsinline poster="assets/hero-slides/ss-ring.jpg">
+        <source src="assets/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: auto auto;">
+        <!-- Left Side: Hero Content -->
+        <div class="hero-content" style="text-align: center;">
+          <span class="hero-tagline"><i class="fas fa-certificate" style="color: var(--accent-orange); margin-right: 0.35rem;"></i> PRECISION ENGINEERED EXCELLENCE</span>
+          <h1 class="hero-title">
+            A S Engineering Work <br>
+            <span style="background: linear-gradient(135deg, #FFFFFF 30%, #94A3B8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Precision Stainless Steel Components</span>
+          </h1>
+
+          <div class="hero-cta-group" style="justify-content: center;">
+            <a href="contact.html" class="btn btn-primary">
+              REQUEST QUOTE <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="products.html" class="btn btn-outline-white">
+              <i class="fas fa-th-large"></i> VIEW PRODUCTS
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Metric Bar Inside Hero -->
+      <div class="hero-bottom-bar">
+        <div class="hero-bottom-metric">
+          <div class="metric-icon"><i class="fas fa-crosshairs"></i></div>
+          <div class="metric-text">
+            <h5>Precision Engineering</h5>
+            <p>Tight tolerances (±0.005mm)</p>
+          </div>
+        </div>
+
+        <div class="hero-bottom-metric">
+          <div class="metric-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="metric-text">
+            <h5>Premium Quality</h5>
+            <p>SS 304, SS 316 & Alloys</p>
+          </div>
+        </div>
+
+        <div class="hero-bottom-metric">
+          <div class="metric-icon"><i class="fas fa-cogs"></i></div>
+          <div class="metric-text">
+            <h5>Advanced Manufacturing</h5>
+            <p>Modern CNC & VMC Machines</p>
+          </div>
+        </div>
+
+        <div class="hero-bottom-metric">
+          <div class="metric-icon"><i class="fas fa-truck-loading"></i></div>
+          <div class="metric-text">
+            <h5>Timely Delivery</h5>
+            <p>On-time global shipment</p>
+          </div>
+        </div>
+
+        <div class="hero-bottom-metric">
+          <div class="metric-icon"><i class="fas fa-headset"></i></div>
+          <div class="metric-text">
+            <h5>Technical Support</h5>
+            <p>24/7 Expert assistance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       4. ABOUT COMPANY (REAL WORKSHOP & BRAND LOGO INTEGRATION)
+       ========================================================= -->
+  <section class="section-padding about-company-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Left: Modern Workshop Image Card with Real Facility Photo & Logo -->
+        <div class="about-image-card">
+          <img src="assets/factory-workshop.jpg" alt="A S Engineering Work Real Manufacturing Workshop Facility Floor">
+          <div class="about-facility-tag">
+            <i class="fas fa-industry"></i> REAL WORKSHOP FACILITY | JAKHINWADI, SATARA
+          </div>
+          <div class="about-logo-badge">
+            <img src="assets/logo.jpeg" alt="A S Engineering Work Brand Logo">
+          </div>
+          <div class="about-exp-badge">
+            <h3>15+</h3>
+            <span>Years of Industrial Excellence</span>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="about-content">
+          <span class="section-tag"><i class="fas fa-building"></i> ABOUT A S ENGINEERING WORK</span>
+          <h2 class="section-title" style="margin-top: 0.5rem; font-size: 2.2rem; line-height: 1.25;">
+            Pioneers in Stainless Steel Precision Engineering
+          </h2>
+          <p class="about-lead-text" style="font-size: 1rem; color: #475569; line-height: 1.6; margin-bottom: 1rem;">
+            <strong>A S Engineering Work</strong> is a precision metal engineering, machining, and stainless steel fabrication company based in Jakhinwadi, Tal. Karad, Dist. Satara, Maharashtra.
+          </p>
+          <p style="font-size: 0.92rem; color: #64748B; line-height: 1.6; margin-bottom: 1.5rem;">
+            Our company profile is built on over 15+ years of dedicated engineering excellence. We produce prime quality SS rings, SS bushings, submersible pump sleeves, seamless SS pipes, and custom drawing-based machined assemblies for industrial OEMs, hydraulic pump makers, and chemical processing facilities across India.
+          </p>
+
+          <!-- 4 Core Pillars Feature Grid -->
+          <div class="about-features-grid">
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fas fa-crosshairs"></i></div>
+              <div>
+                <h5>Micro Tolerances</h5>
+                <p>±0.005mm precision engineering for extreme sealing.</p>
+              </div>
+            </div>
+
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fas fa-tools"></i></div>
+              <div>
+                <h5>In-House Workshop</h5>
+                <p>Shearing, bending, rolling, press & lathe machinery.</p>
+              </div>
+            </div>
+
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fas fa-shield-alt"></i></div>
+              <div>
+                <h5>Certified Materials</h5>
+                <p>SS 304, 316, 316L, 202 J4 & Jindal certified steel.</p>
+              </div>
+            </div>
+
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fas fa-check-circle"></i></div>
+              <div>
+                <h5>100% QA Inspection</h5>
+                <p>Strict quality testing before final dispatch.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <a href="about.html" class="btn btn-primary">
+              EXPLORE OUR FACILITY <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       5. KEY PRODUCTS (3D COVERFLOW PERSPECTIVE SLIDEBAR)
+       ========================================================= -->
+  <section class="section-padding key-products-section" id="products">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 2rem;">
+        <span class="section-tag"><i class="fas fa-boxes"></i> OUR PORTFOLIO</span>
+        <h2 class="section-title">OUR PRODUCTS</h2>
+        <p class="section-subtitle" style="color: #94A3B8; max-width: 640px; margin: 0.5rem auto 0;">
+          Explore our premier range of micro-tolerance engineered stainless steel components manufactured for heavy industrial performance.
+        </p>
+      </div>
+
+      <!-- 3D Coverflow Carousel Container -->
+      <div class="key-products-swiper-container">
+        <div class="swiper key-products-coverflow-swiper">
+          <div class="swiper-wrapper">
+
+            <!-- Slide 1: SS Rings -->
+            <div class="swiper-slide key-product-slide">
+              <div class="key-product-card">
+                <div class="key-product-img-box">
+                  <img src="assets/hero-slides/ss-ring.jpg" alt="SS Rings">
+                  <span class="product-badge">SS 304 / SS 316</span>
+                </div>
+                <div class="key-product-info">
+                  <h3>SS Rings</h3>
+                  <p>Custom machined SS rings engineered with micro tolerances (±0.005mm) for high-pressure industrial sealing.</p>
+                  <div class="product-card-footer">
+                    <span class="spec-pill"><i class="fas fa-crosshairs"></i> ±0.005mm Tolerance</span>
+                    <a href="contact.html" class="slide-enquire-btn">ENQUIRE NOW <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: SS Bushings -->
+            <div class="swiper-slide key-product-slide">
+              <div class="key-product-card">
+                <div class="key-product-img-box">
+                  <img src="assets/hero-slides/ss-bushing.jpg" alt="SS Bushings">
+                  <span class="product-badge">SS 316L</span>
+                </div>
+                <div class="key-product-info">
+                  <h3>SS Bushings</h3>
+                  <p>Wear-resistant flanged cylindrical bushings featuring internal lubrication grooves and polished chamfers.</p>
+                  <div class="product-card-footer">
+                    <span class="spec-pill"><i class="fas fa-shield-alt"></i> Wear Resistant</span>
+                    <a href="contact.html" class="slide-enquire-btn">ENQUIRE NOW <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: SS Sleeves -->
+            <div class="swiper-slide key-product-slide">
+              <div class="key-product-card">
+                <div class="key-product-img-box">
+                  <img src="assets/hero-slides/ss-pump-sleeves.png" alt="SS Sleeves">
+                  <span class="product-badge">Precision Honed</span>
+                </div>
+                <div class="key-product-info">
+                  <h3>SS Sleeves</h3>
+                  <p>Concentric precision honed stainless steel pump sleeves engineered for smooth hydraulic balance.</p>
+                  <div class="product-card-footer">
+                    <span class="spec-pill"><i class="fas fa-sync-alt"></i> Concentric Honed</span>
+                    <a href="contact.html" class="slide-enquire-btn">ENQUIRE NOW <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: SS Pipes -->
+            <div class="swiper-slide key-product-slide">
+              <div class="key-product-card">
+                <div class="key-product-img-box">
+                  <img src="assets/hero-slides/ss-pipes-tubes.png" alt="SS Pipes">
+                  <span class="product-badge">Seamless SS</span>
+                </div>
+                <div class="key-product-info">
+                  <h3>SS Pipes</h3>
+                  <p>High-durability corrosion-resistant seamless stainless steel tubing manufactured for fluid transfer systems.</p>
+                  <div class="product-card-footer">
+                    <span class="spec-pill"><i class="fas fa-water"></i> Fluid Transfer</span>
+                    <a href="contact.html" class="slide-enquire-btn">ENQUIRE NOW <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: Machined Components -->
+            <div class="swiper-slide key-product-slide">
+              <div class="key-product-card">
+                <div class="key-product-img-box">
+                  <img src="assets/hero-slides/ss-submersible-pumps.png" alt="Machined Components">
+                  <span class="product-badge">Heavy Duty</span>
+                </div>
+                <div class="key-product-info">
+                  <h3>Machined Components</h3>
+                  <p>Custom machined stainless steel components, submersible pump sets & motor assemblies built to client CAD drawings.</p>
+                  <div class="product-card-footer">
+                    <span class="spec-pill"><i class="fas fa-cogs"></i> Custom CAD Machined</span>
+                    <a href="contact.html" class="slide-enquire-btn">ENQUIRE NOW <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <div class="swiper-button-next coverflow-next"><i class="fas fa-chevron-right"></i></div>
+          <div class="swiper-button-prev coverflow-prev"><i class="fas fa-chevron-left"></i></div>
+          <div class="swiper-pagination coverflow-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       6. MANUFACTURING PROCESS PIPELINE (6x2 S-WAVE MATCHING USER SCREENSHOT)
+       ========================================================= -->
+  <section class="manufacturing-pipeline-section" id="capabilities">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="pipeline-header">
+        <span class="pipeline-tag"><i class="fas fa-cog"></i> OUR PROCESS</span>
+        <h2 class="pipeline-title">Manufacturing Process</h2>
+        <p class="pipeline-subtitle">12-Step Precision Manufacturing Process From Raw Material to Final Dispatch</p>
+      </div>
+
+      <!-- 6x2 S-Wave Pipeline Grid -->
+      <div class="swave-pipeline-container">
+        
+        <!-- SVG Curved Connecting Laser Line Overlay -->
+        <svg class="swave-svg-overlay" viewBox="0 0 1180 480" preserveAspectRatio="none">
+          <path id="swave-line-bg" fill="none" stroke="rgba(249, 115, 22, 0.3)" stroke-width="4" stroke-dasharray="6 6" />
+          <path id="swave-line-active" fill="none" stroke="url(#swave-laser-grad)" stroke-width="5" stroke-linecap="round" />
+          <defs>
+            <linearGradient id="swave-laser-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#F97316" />
+              <stop offset="100%" stop-color="#FF8C00" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <!-- Travelling Luminous Energy Pulse Ball -->
+        <div id="swave-pulse-ball" class="home-pulse-ball" style="opacity: 0;">
+          <div class="pulse-core"></div>
+        </div>
+
+        <!-- 12 Step Grid Cards (Matching User Screenshot Layout) -->
+        <div class="swave-grid">
+          
+          <!-- Step 01 -->
+          <div class="swave-step-item" data-step="1">
+            <div class="swave-num-badge">01</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Shearing</h5>
+              <p class="swave-step-desc">Precision Cutting</p>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="swave-step-item" data-step="2">
+            <div class="swave-num-badge">02</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Bending</h5>
+              <p class="swave-step-desc">Accurate Angles</p>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="swave-step-item" data-step="3">
+            <div class="swave-num-badge">03</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Stretching & Rolling</h5>
+              <p class="swave-step-desc">Tension Calibration</p>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="swave-step-item" data-step="4">
+            <div class="swave-num-badge">04</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Welding</h5>
+              <p class="swave-step-desc">High Quality Joints</p>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div class="swave-step-item" data-step="5">
+            <div class="swave-num-badge">05</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Weld Press</h5>
+              <p class="swave-step-desc">Alignment & Strength</p>
+            </div>
+          </div>
+
+          <!-- Step 06 -->
+          <div class="swave-step-item" data-step="6">
+            <div class="swave-num-badge">06</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Lap Wheel Rub</h5>
+              <p class="swave-step-desc">Smoothing Joints</p>
+            </div>
+          </div>
+
+          <!-- ROW 2: Steps 07 to 12 (Right-to-Left in visual order) -->
+          
+          <!-- Step 07 -->
+          <div class="swave-step-item" data-step="7" style="grid-column: 6; grid-row: 2;">
+            <div class="swave-num-badge">07</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Rough Machining</h5>
+              <p class="swave-step-desc">Initial Shaping</p>
+            </div>
+          </div>
+
+          <!-- Step 08 -->
+          <div class="swave-step-item" data-step="8" style="grid-column: 5; grid-row: 2;">
+            <div class="swave-num-badge">08</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Final Machining</h5>
+              <p class="swave-step-desc">Exact Tolerances</p>
+            </div>
+          </div>
+
+          <!-- Step 09 -->
+          <div class="swave-step-item" data-step="9" style="grid-column: 4; grid-row: 2;">
+            <div class="swave-num-badge">09</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Ovality Correction</h5>
+              <p class="swave-step-desc">Perfect Roundness</p>
+            </div>
+          </div>
+
+          <!-- Step 10 -->
+          <div class="swave-step-item" data-step="10" style="grid-column: 3; grid-row: 2;">
+            <div class="swave-num-badge">10</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Buffing & Polishing</h5>
+              <p class="swave-step-desc">Mirror & Satin Finish</p>
+            </div>
+          </div>
+
+          <!-- Step 11 -->
+          <div class="swave-step-item" data-step="11" style="grid-column: 2; grid-row: 2;">
+            <div class="swave-num-badge">11</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Inspection</h5>
+              <p class="swave-step-desc">100% QA Check</p>
+            </div>
+          </div>
+
+          <!-- Step 12 -->
+          <div class="swave-step-item" data-step="12" style="grid-column: 1; grid-row: 2;">
+            <div class="swave-num-badge">12</div>
+            <div class="swave-text-content">
+              <h5 class="swave-step-title">Packing & Dispatch</h5>
+              <p class="swave-step-desc">Secure Delivery</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom Feature Bar & Workshop Photo (2 Columns matching screenshot) -->
+      <div class="swave-bottom-grid">
+        <div class="swave-pillars-card">
+          <div class="swave-pillar-item">
+            <div class="swave-pillar-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="swave-pillar-info">
+              <h5>Precision Manufacturing</h5>
+              <p>High accuracy & zero defect process</p>
+            </div>
+          </div>
+
+          <div class="swave-pillar-item">
+            <div class="swave-pillar-icon"><i class="fas fa-award"></i></div>
+            <div class="swave-pillar-info">
+              <h5>Quality Assurance</h5>
+              <p>Strict quality control at every step</p>
+            </div>
+          </div>
+
+          <div class="swave-pillar-item">
+            <div class="swave-pillar-icon"><i class="fas fa-microchip"></i></div>
+            <div class="swave-pillar-info">
+              <h5>Advanced Technology</h5>
+              <p>Modern machines & skilled workforce</p>
+            </div>
+          </div>
+
+          <div class="swave-pillar-item">
+            <div class="swave-pillar-icon"><i class="fas fa-shipping-fast"></i></div>
+            <div class="swave-pillar-info">
+              <h5>Timely Delivery</h5>
+              <p>On-time dispatch across the globe</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swave-workshop-card">
+          <img src="assets/factory-workshop.jpg" alt="Jakhinwadi Satara Manufacturing Workshop Operations">
+        </div>
+      </div>
+
+      <!-- Footer Tagline matching screenshot -->
+      <div class="swave-tagline-footer">
+        <i class="fas fa-check-circle"></i>
+        <span>From Raw Material to Perfect Product – We Deliver Excellence at Every Step</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       7. CERTIFIED MATERIALS & QUALITY ASSURANCE
+       ========================================================= -->
+  <section class="section-padding quality-materials-section" id="quality">
+    <div class="container">
+      <div class="quality-materials-grid">
+
+        <!-- Left Column: Certified Stainless Steel Material Grades -->
+        <div class="materials-column">
+          <span class="section-tag"><i class="fas fa-layer-group"></i> CERTIFIED METALS</span>
+          <h2 class="section-title">
+            Materials We Work With
+          </h2>
+          <p class="section-subtitle-left">
+            We source 100% mill-certified prime stainless steel alloys tailored to meet stringent corrosion, heat, and structural requirements.
+          </p>
+
+          <div class="materials-grade-grid">
+            
+            <!-- Grade 1: Jindal 304 -->
+            <div class="material-card-glow active-grade">
+              <div class="material-header">
+                <span class="grade-symbol">JINDAL</span>
+                <h3>Jindal 304</h3>
+                <span class="material-pill-badge">Certified Prime</span>
+              </div>
+              <p>Authentic Jindal Stainless Steel 304 grade offering superior tensile strength, excellent corrosion resistance, and food-grade safety.</p>
+              <div class="material-specs-list">
+                <span><i class="fas fa-check"></i> High Tensile Strength</span>
+                <span><i class="fas fa-check"></i> 100% Jindal Mill Certified</span>
+              </div>
+            </div>
+
+            <!-- Grade 2: Jindal 202 J4 -->
+            <div class="material-card-glow">
+              <div class="material-header">
+                <span class="grade-symbol">JINDAL</span>
+                <h3>Jindal 202 J4</h3>
+                <span class="material-pill-badge-orange">J4 Series</span>
+              </div>
+              <p>Genuine Jindal Stainless 202 J4 series austenitic alloy featuring high toughness, excellent formability, and smooth surface polish.</p>
+              <div class="material-specs-list">
+                <span><i class="fas fa-check"></i> Superior Formability</span>
+                <span><i class="fas fa-check"></i> Cost-Effective & Durable</span>
+              </div>
+            </div>
+
+            <!-- Grade 3: SS 316 -->
+            <div class="material-card-glow">
+              <div class="material-header">
+                <span class="grade-symbol">SS</span>
+                <h3>SS 316</h3>
+                <span class="material-pill-badge-orange">Marine Grade</span>
+              </div>
+              <p>Molybdenum-bearing heavy-duty stainless steel engineered for extreme acid, chemical, salt, and marine corrosion resistance.</p>
+              <div class="material-specs-list">
+                <span><i class="fas fa-check"></i> Acid & Salt Resistant</span>
+                <span><i class="fas fa-check"></i> High-Pressure Sealing</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Quality Assurance Standards & Guarantee -->
+        <div class="quality-column">
+          <span class="section-tag" style="background: rgba(249, 115, 22, 0.08); color: var(--accent-orange); border-color: rgba(249, 115, 22, 0.2);"><i class="fas fa-award"></i> QUALITY ASSURANCE</span>
+          <h2 class="section-title">
+            Quality You Can Trust
+          </h2>
+          <p class="section-subtitle-left">
+            Every component undergoes rigorous dimensional, ovality, and surface inspection before leaving our factory floor.
+          </p>
+
+          <div class="quality-pillars-grid">
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-crosshairs"></i></div>
+              <div class="quality-pillar-text">
+                <h5>Micro Accuracy</h5>
+                <p>±0.005mm micrometer precision check</p>
+              </div>
+            </div>
+
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-shield-alt"></i></div>
+              <div class="quality-pillar-text">
+                <h5>Corrosion Shield</h5>
+                <p>100% certified SS chemical testing</p>
+              </div>
+            </div>
+
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-magic"></i></div>
+              <div class="quality-pillar-text">
+                <h5>Mirror Polishing</h5>
+                <p>Ultra-smooth roughness (Ra) finish</p>
+              </div>
+            </div>
+
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-sync"></i></div>
+              <div class="quality-pillar-text">
+                <h5>Ovality Calibration</h5>
+                <p>Concentric roundness & wall balance</p>
+              </div>
+            </div>
+
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-check-double"></i></div>
+              <div class="quality-pillar-text">
+                <h5>100% Inspection</h5>
+                <p>Zero-defect individual piece QA</p>
+              </div>
+            </div>
+
+            <div class="quality-pillar-item">
+              <div class="quality-icon-glow"><i class="fas fa-box-open"></i></div>
+              <div class="quality-pillar-text">
+                <h5>Safe Packaging</h5>
+                <p>Anti-scratch industrial wrapping</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quality Guarantee Emblem Card -->
+          <div class="quality-guarantee-card">
+            <div class="guarantee-badge-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="guarantee-info">
+              <h4>100% Quality Inspected & Mill Certified</h4>
+              <p>Full raw material test certificates (MTC) and inspection reports provided with every shipment.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       8. CALL TO ACTION BANNER (LARGE BLUE GRADIENT)
+       ========================================================= -->
+  <section class="section-padding" style="padding-top: 0;">
+    <div class="container">
+      <div class="large-cta-banner">
+        <div>
+          <h2>Need Custom Engineering Solutions?</h2>
+          <p>Get high precision stainless steel components as per your drawings and specifications.</p>
+        </div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="contact.html" class="btn btn-accent" style="background: var(--orange-gradient);">
+            REQUEST QUOTE <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="tel:+919850444542" class="btn btn-primary" style="background: #0241B4; border-color: rgba(255,255,255,0.3);">
+            <i class="fas fa-phone-alt"></i> CALL NOW
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       9. FOOTER (DARK NAVY WITH MAP PREVIEW)
+       ========================================================= -->
+  <footer style="background-color: #040810; color: #94A3B8; padding-top: 5rem; padding-bottom: 2rem; border-top: 1px solid rgba(255,255,255,0.08);">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">
+            <img src="assets/logo.jpeg" alt="A S Engineering Work Logo" class="header-logo-img">
+          </a>
+          <p style="margin-top: 1.25rem; font-size: 0.88rem; line-height: 1.7; color: #94A3B8;">
+            Precision engineering, premium quality and perfect performance — our promise to every customer.
+          </p>
+          <div style="display: flex; gap: 1rem; margin-top: 1.25rem;">
+            <a href="#" style="color: var(--white); font-size: 1.1rem;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: var(--white); font-size: 1.1rem;"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" style="color: var(--white); font-size: 1.1rem;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: var(--white); font-size: 1.1rem;"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="color: var(--white); font-size: 1.05rem; margin-bottom: 1.25rem;">QUICK LINKS</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.88rem;">
+            <li><a href="index.html" style="color: #94A3B8;">Home</a></li>
+            <li><a href="about.html" style="color: #94A3B8;">About Us</a></li>
+            <li><a href="products.html" style="color: #94A3B8;">Products</a></li>
+            <li><a href="about.html#capabilities" style="color: #94A3B8;">Capabilities</a></li>
+            <li><a href="#quality" style="color: #94A3B8;">Quality</a></li>
+            <li><a href="products.html#gallery" style="color: #94A3B8;">Gallery</a></li>
+            <li><a href="contact.html" style="color: #94A3B8;">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="color: var(--white); font-size: 1.05rem; margin-bottom: 1.25rem;">OUR PRODUCTS</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.88rem;">
+            <li><a href="products.html" style="color: #94A3B8;">SS Rings</a></li>
+            <li><a href="products.html" style="color: #94A3B8;">SS Bushings</a></li>
+            <li><a href="products.html" style="color: #94A3B8;">SS Sleeves</a></li>
+            <li><a href="products.html" style="color: #94A3B8;">SS Pipes</a></li>
+            <li><a href="products.html" style="color: #94A3B8;">Machined Components</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="color: var(--white); font-size: 1.05rem; margin-bottom: 1.25rem;">CONTACT INFO</h4>
+          <div style="display: flex; flex-direction: column; gap: 0.85rem; font-size: 0.88rem; color: #94A3B8;">
+            <div><i class="fas fa-map-marker-alt" style="color: var(--accent-orange); margin-right: 0.5rem;"></i> Jakhinwadi, Tal. Karad, Dist. Satara, Maharashtra – 415539</div>
+            <div><i class="fas fa-phone-alt" style="color: var(--accent-orange); margin-right: 0.5rem;"></i> +91 9850444542</div>
+            <div><i class="fas fa-envelope" style="color: var(--accent-orange); margin-right: 0.5rem;"></i> asengineeringwork1@gmail.com</div>
+            <div><i class="fas fa-file-invoice" style="color: var(--accent-orange); margin-right: 0.5rem;"></i> GSTIN: 27KOSPS1009P1ZY</div>
+          </div>
+        </div>
+
+        <!-- Google Map Card Preview -->
+        <div>
+          <h4 style="color: var(--white); font-size: 1.05rem; margin-bottom: 1.25rem;">OUR LOCATION</h4>
+          <div style="border-radius: var(--border-radius-md); overflow: hidden; height: 140px; border: 1px solid rgba(255,255,255,0.12); position: relative;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60980.52839958045!2d74.1485089!3d17.2882586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1824efb4fffff%3A0x6b44a73786196230!2sKarad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 <strong>A S Engineering Work</strong>. All Rights Reserved.</div>
+        <div style="color: #94A3B8;">Designed with <i class="fas fa-heart" style="color: #EF4444;"></i> for Precision Engineering</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SLEEK FLOATING CONTACT ACTION STACK -->
+  <div class="floating-buttons-container">
+    <a href="https://wa.me/919850444542?text=Hello%20A%20S%20Engineering%20Work,%20I%20have%20an%20enquiry" 
+       class="float-btn float-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="float-tooltip">WhatsApp</span>
+    </a>
+
+    <a href="tel:+919850444542" class="float-btn float-call" aria-label="Call Now">
+      <i class="fas fa-phone-alt"></i>
+      <span class="float-tooltip">Call Now</span>
+    </a>
+
+    <a href="mailto:asengineeringwork1@gmail.com" class="float-btn float-email" aria-label="Email Us">
+      <i class="fas fa-envelope"></i>
+      <span class="float-tooltip">Email Us</span>
+    </a>
+
+    <a href="contact.html#rfq-form" class="float-btn float-rfq" aria-label="Get Quote">
+      <i class="fas fa-file-contract"></i>
+      <span class="float-tooltip">Get Quote</span>
+    </a>
+
+    <button id="back-to-top-btn" class="float-btn float-top" aria-label="Back to Top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+      <i class="fas fa-arrow-up"></i>
+      <span class="float-tooltip">Back to Top</span>
+    </button>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/rfq-modal.js"></script>
+  <script src="js/swave-pipeline.js"></script>
+</body>
+</html>
